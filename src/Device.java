@@ -21,7 +21,7 @@ public class Device {
     String getInfo(){
 
 
-            String napis = code + " " + producer + " "+ type + " " + price;
+            String napis = code + ", producent: " + producer + ", typ:  "+ type + ", cena: " + price;
             return napis;
 
     }
